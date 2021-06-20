@@ -1,0 +1,138 @@
+html {
+  min-height: 100%;
+  overflow-y: scroll;
+  margin-bottom: 0;
+}
+
+body {
+  padding-bottom: 20px;
+  min-height: 100%;
+  margin-bottom: 0;
+}
+
+.header {
+  display: block;
+  background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  margin: 0 5% 24px 5%;
+  border-width: 2px;
+  border-style: solid;
+  border-color: darkgray;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 2px 1px rgba(0, 0, 255, 0.2);
+}
+
+h1 {
+  text-align: center;
+  font-family: "Righteous";
+  font-size: 50px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  color: #8ef6e4;
+  text-shadow: #d59bf6 0px 0px 5px;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Righteous";
+  font-size: 20px;
+  margin-top: 0px;
+  color: #a696c8;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 5% 10px 5%;
+}
+
+.main-box {
+  flex-grow: 1;
+  flex-basis: 25%;
+  margin-right: 10px;
+  background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  border-width: 2px;
+  border-style: solid;
+  border-color: darkgray;
+  border-radius: 5px;
+  box-shadow: 3px 3px 2px 1px rgba(0, 0, 255, 0.2);
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.side-bar {
+  flex-grow: 1;
+  flex-basis: 40px;
+  background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  border-width: 2px;
+  border-style: solid;
+  border-color: darkgray;
+  border-radius: 5px;
+  box-shadow: 3px 3px 2px 1px rgba(0, 0, 255, 0.2);
+}
+
+img {
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50%;
+  width: auto;
+}
+
+h3 {
+  text-align: center;
+  font-family: "Righteous";
+  font-size: 18px;
+  color: #885df1;
+}
+
+p {
+  text-align: center;
+  font-family: "Righteous";
+  font-size: 12px;
+}
+
+button {
+  border-radius: 8px;
+  font-size: 20pt;
+  height: 50px;
+  width: 200px;
+  height: 100px;
+  margin: 0 auto;
+  margin-top: 30px;
+  display: block;
+  border-style: hidden;
+  transition: all 200ms ease-in-out;
+}
+
+button:hover {
+  background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  color: white;
+  cursor: pointer;
+}
+
+.foot {
+  display: block;
+  margin-bottom: 0;
+  margin: 0 5% 24px 5%;
+  background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  border-width: 2px;
+  border-style: solid;
+  border-color: darkgray;
+  border-radius: 5px;
+  box-shadow: 3px 3px 2px 1px rgba(0, 0, 255, 0.2);
+}
+
+h4 {
+  text-align: center;
+  font-family: "Righteous";
+  font-size: 12px;
+  color: #06114e;
+}
